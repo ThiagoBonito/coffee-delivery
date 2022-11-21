@@ -26,13 +26,13 @@ export const Announcement: FC = () => {
         </TitleAnnouncement>
         <OptionsAnnouncement>
           <OptionRow>
-            <div>
+            <div className="option">
               <OptionColor color={"yellowDark"}>
                 <ShoppingCart size={12} color={"#fff"} weight="fill" />
               </OptionColor>
               <p>Compra simples e segura</p>
             </div>
-            <div>
+            <div className="option">
               <OptionColor color={"gray"}>
                 <Package size={12} color={"#fff"} weight="fill" />
               </OptionColor>
@@ -40,17 +40,17 @@ export const Announcement: FC = () => {
             </div>
           </OptionRow>
           <OptionRow>
-            <div>
+            <div className="option">
               <OptionColor color={"yellow"}>
                 <Timer size={12} color={"#fff"} weight="fill" />
               </OptionColor>
-              <p>Compra simples e segura</p>
+              <p>Entrega rápida e rastreada</p>
             </div>
-            <div>
+            <div className="option">
               <OptionColor color={"purple"}>
                 <Coffee size={12} color={"#fff"} weight="fill" />
               </OptionColor>
-              <p>Embalagem mantém o café intacto</p>
+              <p>O café chega fresquinho até você</p>
             </div>
           </OptionRow>
         </OptionsAnnouncement>

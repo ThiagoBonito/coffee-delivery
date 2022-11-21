@@ -9,7 +9,8 @@ export const HomeContainer = styled.div`
 `;
 
 export const CoffeeContainer = styled.div`
-  margin-top: 4rem;
+  margin-top: 3rem;
+
   h2 {
     color: ${(props) => props.theme["gray-200"]};
     font-family: "Baloo 2", sans-serif;
@@ -17,10 +18,8 @@ export const CoffeeContainer = styled.div`
 `;
 
 export const CoffeeList = styled.div`
+  margin-top: 4rem;
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 0.5rem;
-  h1 {
-    border: 1px solid #2196f3;
-  }
+  grid-template-columns: 250px 250px 250px 250px;
+  gap: 2rem;
 `;

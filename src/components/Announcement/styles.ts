@@ -60,11 +60,13 @@ export const OptionsAnnouncement = styled.div`
 
 export const OptionRow = styled.div`
   display: flex;
+  flex: 1;
   justify-content: space-between;
   margin-bottom: 0.5rem;
 
-  div {
+  .option {
     display: flex;
+    flex: 0.5;
     gap: 0.5rem;
     align-items: center;
 

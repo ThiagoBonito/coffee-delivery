@@ -1,5 +1,7 @@
 import { FC } from "react";
 import { Announcement } from "../../components/Announcement";
+import { CoffeeCards } from "../../components/CoffeeCards";
+import { coffeeList } from "../../utils/CoffeeData";
 import { CoffeeContainer, CoffeeList, HomeContainer } from "./styles";
 
 export const Home: FC = () => {
@@ -9,10 +11,16 @@ export const Home: FC = () => {
       <CoffeeContainer>
         <h2>Nossos cafés</h2>
         <CoffeeList>
-          <h1>Card</h1>
-          <h1>Card</h1>
-          <h1>Card</h1>
-          <h1>Card</h1>
+          {coffeeList.map((coffee) => (
+            <CoffeeCards
+              key={coffee.id}
+              title={coffee.title}
+              description={coffee.description}
+              types={coffee.types}
+              price={coffee.price}
+              image={coffee.img}
+            />
+          ))}
         </CoffeeList>
       </CoffeeContainer>
     </HomeContainer>
