@@ -277,7 +277,7 @@ export const Button = styled.button`
   border-radius: 4px;
   background-color: ${(props) => props.theme["yellow-500"]};
   color: ${(props) => props.theme["white"]};
-  padding: 0.5rem;
+  padding: 0.75rem;
   align-items: center;
   justify-content: center;
 `;
