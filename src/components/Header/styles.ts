@@ -18,7 +18,7 @@ export const UserLocal = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  padding: 0.25rem;
   gap: 0.5rem;
   border-radius: 6px;
   background-color: ${(props) => props.theme["purple-100"]};
@@ -31,7 +31,7 @@ export const UserLocal = styled.div`
 export const ShoppingCartButton = styled.div`
   display: flex;
   align-items: center;
-  padding: 0.5rem;
+  padding: 0.25rem;
   border-radius: 6px;
   background-color: ${(props) => props.theme["yellow-100"]};
 `;
