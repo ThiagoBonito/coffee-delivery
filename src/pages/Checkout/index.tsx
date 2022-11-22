@@ -12,11 +12,13 @@ import { FC } from "react";
 import {
   AddressContainer,
   BaseInput,
+  Button,
   CardAddress,
   CardPayment,
   CartCard,
   CartContainer,
   CheckoutContainer,
+  TotalItems,
   WaysPayment,
 } from "./styles";
 
@@ -113,6 +115,21 @@ export const Checkout: FC = () => {
               </div>
             </div>
           </div>
+          <TotalItems>
+            <div className="items">
+              <p>Total de itens</p>
+              <p>R$ 29,70</p>
+            </div>
+            <div className="items">
+              <p>Entrega</p>
+              <p>R$ 3,50</p>
+            </div>
+            <div className="total-items">
+              <p>Total de itens</p>
+              <p>R$ 29,70</p>
+            </div>
+            <Button>CONFIRMAR PEDIDO</Button>
+          </TotalItems>
         </CartCard>
       </CartContainer>
     </CheckoutContainer>
