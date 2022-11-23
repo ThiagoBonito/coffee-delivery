@@ -20,6 +20,6 @@ export const CoffeeContainer = styled.div`
 export const CoffeeList = styled.div`
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-columns: repeat(4, 2fr);
   gap: 2rem;
 `;
