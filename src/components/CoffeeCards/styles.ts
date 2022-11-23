@@ -93,6 +93,7 @@ export const Cart = styled.button`
   padding: 0.5rem;
   border-radius: 6px;
   border: none;
+  cursor: pointer;
   background-color: ${(props) => props.theme["purple-700"]};
   color: ${(props) => props.theme["white"]};
 `;
